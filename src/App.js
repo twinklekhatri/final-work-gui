@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './Components/Shared/NavBar';
+import Footer from './Components/Shared/Footer';
 
 function App() {
-  return (
+  return (<>
    <NavBar/>
+   <Footer/>
+   </>
   );
 }
 
